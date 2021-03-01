@@ -1,0 +1,33 @@
+.title{
+    
+        color: #ff7d4d;
+        font-size: 36px;
+
+        /* display: flex; */
+        /* justify-content: center;
+        align-items: center; */
+      
+}
+
+.display{
+    text-align: left;
+    
+}
+
+
+li{
+    list-style-type: none;
+}
+
+
+.skills {
+    margin: 20px !important;
+    text-decoration: none !important;
+    font-size: x-large !important;
+    color: #fc6602 !important;
+
+  }
+
+  .left{
+    text-align: left;
+  }
