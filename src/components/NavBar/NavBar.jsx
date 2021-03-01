@@ -7,7 +7,7 @@ export default function NavBar() {
     <div className="NabBarMain">
       <Container fluid>
         <Row>
-          <Col>
+          <Col lg={4} md={12} sm={12}>
             <img
               src={Hi}
               width="350px"
@@ -16,8 +16,8 @@ export default function NavBar() {
               alt=""
             />
           </Col>
-          <Col className="name">Areeg Fahad</Col>
-          <Col className="social">
+          <Col lg={4} md={12} sm={12} className="name">Areeg Fahad</Col>
+          <Col lg={4} md={12} sm={12} className="social">
             <a href="https://www.google.com">
               <i className="fab fa-telegram-plane "></i>
             </a>
@@ -34,7 +34,7 @@ export default function NavBar() {
         </Row>
         </Container>
         <Row  className="justify-content-md-center" >
-          <Navbar  expand="navbar navbar-expand-lg navbar-dark"  fixed>
+          <Navbar  expand="navbar navbar-expand-lg navbar-dark">
             {/* <Navbar.Brand href="#home">Home</Navbar.Brand> */}
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

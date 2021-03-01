@@ -15,8 +15,8 @@ export default function MySkills() {
   return (
     <div>
       <Row className="justify-content-center title">SKILLS</Row>
-      <Row className="justify-content-md-center ml-3">
-        <Col className="left">
+      <Row className="justify-content-center ml-3">
+        <Col lg={3} md={4} sm={6} className="left">
           <i class=" skills fab fa-html5"></i>
           {"  "}HTML
           <br />
@@ -26,7 +26,7 @@ export default function MySkills() {
           <i class="skills fab fa-bootstrap"></i>
           {"  "}BootStrap
         </Col>
-        <Col className="left">
+        <Col lg={3} md={4} sm={6} className="left">
           <i class=" skills fab fa-js-square"></i>
           {"  "}JavaScript
           <br />
@@ -36,7 +36,7 @@ export default function MySkills() {
           <i class=" skills fab fa-vuejs"></i>
           {"  "}Vue Js
         </Col>
-        <Col className="left">
+        <Col lg={3} md={4} sm={6} className="left">
           <i class=" skills fab fa-python"></i>
           {"  "}Python
           <br />
@@ -45,7 +45,7 @@ export default function MySkills() {
           <Icon className="skills" icon={djangoIcon} />
           {"  "}Django
         </Col>
-        <Col className="left">
+        <Col lg={3} md={4} sm={6} className="left">
           <li>
             <Icon className="skills" icon={postgresqlIcon} />
             {"  "}PostgresSQL
