@@ -9,6 +9,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
 }
 
 .name {
@@ -17,7 +18,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  text-shadow: 3px 3px 3px 3px orange;
+  text-shadow: 3px  3px orange;
   /* box-shadow: ; */
 }
 
@@ -32,19 +33,19 @@
   text-decoration: none;
   font-size: large;
   color: #fafafa;
+  text-shadow: 1px  1px orange;
 }
 
-a.nav-link {
-  display: flex;
-  justify-content: center;
-  /* margin-left: 60px; */
-  color: #222222;
+a{
+  
 }
 
 .navbar-dark .navbar-nav .nav-link,
 .navbar-brand {
-  color: rgba(10, 27, 27, 0.5) !important;
-  font-size: large;
+  color: rgba(255, 255, 255) !important;
+  font-size:x-large;
+  text-shadow: 1px 1px #c2dcdd ;
+  
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,

@@ -1,35 +1,30 @@
-.title{
-    
-        color: #ff7d4d;
-        font-size: 36px;
+.title {
+  color: #ff7d4d;
+  font-size: 36px;
+  /* border:2px solid red; */
+  margin-left: 16px !important;
 
-        /* display: flex; */
-        /* justify-content: center;
+
+  /* display: flex; */
+  /* justify-content: center;
         align-items: center; */
-      
 }
 
-.display{
-    text-align: left;
-    
+.display {
+  text-align: left;
 }
 
-
-li{
-    list-style-type: none;
-    
+li {
+  list-style-type: none;
 }
-
 
 .skills {
-    margin: 20px !important;
-    text-decoration: none !important;
-    font-size: x-large !important;
-    color: #fc6602 !important;
+  margin: 20px !important;
+  text-decoration: none !important;
+  font-size: x-large !important;
+  color: #fc6602 !important;
+}
 
-  }
-
-  .left{
-    text-align: left;
-    
-  }
+.left {
+  text-align: left;
+}
