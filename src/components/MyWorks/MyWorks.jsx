@@ -21,8 +21,8 @@ export default function MyWorks() {
         <Col xl={4} lg={4} md={6} sm={12} xs={12}>
           <img
             src={P1}
-            width="100px"
-            height="100px"
+            width="300px"
+            height="280px"
             style={{ marginTop: "-15px" }}
             alt=""
           />

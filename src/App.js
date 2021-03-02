@@ -1,6 +1,7 @@
 import './App.css';
 import AboutMe from './components/AboutMe/AboutMe';
 import Certificate from './components/Certificate/Certificate';
+import ContactInfo from './components/ContactInfo/ContactInfo';
 import Education from './components/Education/Education';
 import Experience from './components/Experience/Experience';
 import MySkills from './components/MySkills/MySkills';
@@ -17,7 +18,7 @@ function App() {
     <Education/>
     <Experience/>
     <Certificate/>
-    <Experience/>
+    <ContactInfo/>
     </div>
   );
 }
