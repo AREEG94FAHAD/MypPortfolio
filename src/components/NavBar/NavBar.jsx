@@ -42,12 +42,13 @@ export default function NavBar() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
               <Nav.Link href="#link">Home</Nav.Link>
+              <Nav.Link href="#Skills">Skills</Nav.Link>
+              <Nav.Link href="#Myworks">My Works</Nav.Link>
               <Nav.Link href="#AbouteMe">Aboute Me</Nav.Link>
-              <Nav.Link href="#link">Education</Nav.Link>
-              <Nav.Link href="#link">Experience</Nav.Link>
-              <Nav.Link href="#link">Skills</Nav.Link>
-              <Nav.Link href="#link">Certificates</Nav.Link>
-              <Nav.Link href="#link">Contact</Nav.Link>
+              <Nav.Link href="#Education">Education</Nav.Link>
+              <Nav.Link href="#Experienec">Experience</Nav.Link>
+              <Nav.Link href="#Certificates">Certificates</Nav.Link>
+              <Nav.Link href="#Contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

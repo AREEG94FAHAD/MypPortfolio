@@ -7,7 +7,7 @@ import { Col, Row } from "react-bootstrap";
 export default function MyWorks() {
   return (
     <div>
-      <Row className="justify-content-center title">My Works</Row>
+      <Row className="justify-content-center title" id="Myworks">My Works</Row>
 
       <Row className="d-flex justify-content-around  back">
         <Col xl={4} lg={4} md={6} sm={12} xs={12}>

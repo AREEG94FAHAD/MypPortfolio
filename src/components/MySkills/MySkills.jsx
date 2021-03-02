@@ -14,7 +14,7 @@ import apiIcon from "@iconify-icons/carbon/api";
 export default function MySkills() {
   return (
     <div>
-      <Row className="justify-content-center title">SKILLS</Row>
+      <Row className="justify-content-center title" id="Skills">SKILLS</Row>
       <Row className="d-flex justify-content-around">
         {/* <Row className="d-flex justify-content-around ml-5"> */}
         <Col className="" xl={3} lg={3} md={4} sm={6} xs={12}>
