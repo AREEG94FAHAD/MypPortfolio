@@ -2,7 +2,7 @@ import React from "react";
 import "./MySkills.css";
 import { Row, Col } from "react-bootstrap";
 // npm install --save-dev @iconify/react @iconify-icons/cib
-import { Icon, InlineIcon } from "@iconify/react";
+import { Icon } from "@iconify/react";
 import flaskIcon from "@iconify-icons/cib/flask";
 import djangoIcon from "@iconify-icons/cib/django";
 import postgresqlIcon from "@iconify-icons/cib/postgresql";
@@ -15,8 +15,9 @@ export default function MySkills() {
   return (
     <div>
       <Row className="justify-content-center title">SKILLS</Row>
-      <Row className="justify-content-center ml-3">
-        <Col lg={3} md={4} sm={6} className="left">
+      <Row className="d-flex justify-content-around">
+        {/* <Row className="d-flex justify-content-around ml-5"> */}
+        <Col className="" xl={3} lg={3} md={4} sm={6} xs={12}>
           <i class=" skills fab fa-html5"></i>
           {"  "}HTML
           <br />
@@ -26,7 +27,7 @@ export default function MySkills() {
           <i class="skills fab fa-bootstrap"></i>
           {"  "}BootStrap
         </Col>
-        <Col lg={3} md={4} sm={6} className="left">
+        <Col className="" xl={3} lg={3} md={4} sm={6} xs={12}>
           <i class=" skills fab fa-js-square"></i>
           {"  "}JavaScript
           <br />
@@ -36,7 +37,7 @@ export default function MySkills() {
           <i class=" skills fab fa-vuejs"></i>
           {"  "}Vue Js
         </Col>
-        <Col lg={3} md={4} sm={6} className="left">
+        <Col xl={3} lg={3} md={4} sm={6} xs={12}>
           <i class=" skills fab fa-python"></i>
           {"  "}Python
           <br />
@@ -45,7 +46,7 @@ export default function MySkills() {
           <Icon className="skills" icon={djangoIcon} />
           {"  "}Django
         </Col>
-        <Col lg={3} md={4} sm={6} className="left">
+        <Col xl={3} lg={3} md={4} sm={6} xs={12}>
           <li>
             <Icon className="skills" icon={postgresqlIcon} />
             {"  "}PostgresSQL

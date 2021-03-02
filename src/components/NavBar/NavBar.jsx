@@ -10,8 +10,8 @@ export default function NavBar() {
           <Col lg={4} md={12} sm={12}>
             <img
               src={Hi}
-              width="350px"
-              height="270px"
+              width="100px"
+              height="100px"
               style={{ marginTop: "-15px" }}
               alt=""
             />
@@ -33,7 +33,7 @@ export default function NavBar() {
           </Col>
         </Row>
         </Container>
-        <Row  className="justify-content-md-center" >
+        <Row  className="justify-content-center" >
           <Navbar  expand="navbar navbar-expand-lg navbar-dark">
             {/* <Navbar.Brand href="#home">Home</Navbar.Brand> */}
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

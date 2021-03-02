@@ -1,4 +1,16 @@
-.back{
-    background-color: #A3e5e5;
-    width: 90%;
+.back {
+  background-color: #a3e5e5;
+  border-radius: 1%;
+  margin: 26px !important;
+  margin-bottom: 50px !important;
+}
+
+.item {
+  background-color: azure;
+  margin-top: 16px;
+  max-height: 300px;
+  height: 250px;
+  padding: 16px;
+  text-align: center;
+  margin-bottom: 16px !important;
 }
