@@ -2,6 +2,7 @@ import React,{useEffect,useState} from 'react'
 import firebase from "../Firebase/firebase";
 import By from '../../Images/by.png'
 import { Col, Row } from "react-bootstrap";
+import './ContactInfo.css'
 
 export default function ContactInfo() {
     const [items, setItem] =useState([{}])
@@ -24,7 +25,7 @@ export default function ContactInfo() {
         <div id="Contact">
             <Row className="justify-content-start title">Contact Info</Row>
             <Row className="justify-content-start">
-            <Col className="Education">
+            <Col className="contact">
                 {items? items.map(e=><li>{e.name}: {"  "+e.value}</li>):""}
 
 
@@ -34,7 +35,7 @@ export default function ContactInfo() {
             <img
             src={By}
             width="280px"
-            height="300px"
+            height="200px"
             alt=""
           />
             </Col>

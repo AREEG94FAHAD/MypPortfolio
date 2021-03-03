@@ -10,15 +10,15 @@ export default function MyWorks() {
       <Row className="justify-content-center title" id="Myworks">My Works</Row>
 
       <Row className="d-flex justify-content-around  back">
-        <Col xl={4} lg={4} md={6} sm={12} xs={12}>
+        <Col  className="align-self-center " xl={4} lg={4} md={6} sm={12} xs={12}>
           {" "}
-          <div className="item">
+          <div  className="item">
             <h1>Covid19</h1>
             <p>web app for monitoring status " corona virus " in Iraq</p>
-            <i class="fab fa-github"></i>
+            <i class="fab fa-github icon"></i>
           </div>{" "}
         </Col>
-        <Col xl={4} lg={4} md={6} sm={12} xs={12}>
+        <Col className="align-self-center" xl={4} lg={4} md={6} sm={12} xs={12}>
           <img
             src={P1}
             width="300px"
@@ -37,7 +37,7 @@ export default function MyWorks() {
               auction listings, place bids on listings, comment on those
               listings
             </p>
-            <i class="fab fa-github"></i>
+            <i class="fab fa-github icon"></i>
           </div>{" "}
         </Col>
         <Col xl={4} lg={4} md={6} sm={12} xs={12}>
@@ -49,7 +49,7 @@ export default function MyWorks() {
               the discovery and bookings of shows between local performing
               artists and venues.
             </p>
-            <i class="fab fa-github"></i>
+            <i class="fab fa-github icon"></i>
           </div>{" "}
         </Col>
         <Col xl={4} lg={4} md={6} sm={12} xs={12}>
@@ -57,7 +57,7 @@ export default function MyWorks() {
           <div className="item">
             <h1>commerce</h1>
             <p>web app for monitoring status " corona virus " in Iraq</p>
-            <i class="fab fa-github"></i>
+            <i className="fab fa-github icon"></i>
           </div>{" "}
         </Col>
         <Col xl={4} lg={4} md={6} sm={12} xs={12}>
@@ -68,7 +68,7 @@ export default function MyWorks() {
               RESTFUL API for Display articles, Delete articles, Add
               articles,update articles
             </p>
-            <i class="fab fa-github"></i>
+            <i class="fab fa-github icon"></i>
           </div>{" "}
         </Col>
         <Col xl={4} lg={4} md={6} sm={12} xs={12}>
@@ -76,7 +76,7 @@ export default function MyWorks() {
           <div className="item">
             <h1>Coffee Shop</h1>
             <p>cafe for students to order drinks</p>
-            <i class="fab fa-github"></i>
+            <i class="fab fa-github icon"></i>
           </div>{" "}
         </Col>
         <Col xl={4} lg={4} md={6} sm={12} xs={12}>
@@ -87,7 +87,7 @@ export default function MyWorks() {
               RESTFUL API for Display questions, Delete questions, Add
               questions,Play the quiz game
             </p>
-            <i class="fab fa-github"></i>
+            <i class="fab fa-github icon"></i>
           </div>{" "}
         </Col>
         <Col xl={4} lg={4} md={6} sm={12} xs={12}>
@@ -95,10 +95,10 @@ export default function MyWorks() {
           <div className="item">
             <h1>weather_app_js</h1>
             <p>A weather web application using React</p>
-            <i class="fab fa-github"></i>
+            <i class="fab fa-github icon"></i>
           </div>{" "}
         </Col>
-        <Col xl={4} lg={4} md={6} sm={12} xs={12}>
+        <Col align="center" xl={4} lg={4} md={6} sm={12} xs={12}>
           {" "}
           <div className="item">
             <h1>Hangman game</h1>
@@ -106,7 +106,7 @@ export default function MyWorks() {
               The most Dangerous game you will ever play! if you don't win a
               person will be hanged 👨‍🦱🔪 !!
             </p>
-            <i class="fab fa-github"></i>
+            <i class="fab fa-github icon"></i>
           </div>{" "}
         </Col>
         <Col xl={4} lg={4} md={6} sm={12} xs={12}>
@@ -120,7 +120,7 @@ export default function MyWorks() {
               alt=""
             />
             <p>You can find more here ...</p>
-            <i class="fab fa-github"></i>
+            <i class="fab fa-github icon"></i>
           </div>{" "}
         </Col>
       </Row>

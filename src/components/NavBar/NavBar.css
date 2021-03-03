@@ -28,7 +28,7 @@
   margin-top: 20px;
 }
 
-.fab {
+.fabb {
   margin-left: 50px;
   text-decoration: none;
   font-size: large;
@@ -36,15 +36,14 @@
   text-shadow: 1px  1px orange;
 }
 
-a{
-  
-}
+
 
 .navbar-dark .navbar-nav .nav-link,
 .navbar-brand {
   color: rgba(255, 255, 255) !important;
   font-size:x-large;
   text-shadow: 1px 1px #c2dcdd ;
+ 
   
 }
 
@@ -55,8 +54,10 @@ a{
   color: rgb(12, 19, 19) !important;
   text-decoration: underline;
   text-decoration-color: #fda172;
+  
 }
 
 .nav-link{
-  margin-left: 30px;
+  
+  
 }

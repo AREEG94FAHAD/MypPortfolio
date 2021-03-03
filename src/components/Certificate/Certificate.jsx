@@ -11,10 +11,12 @@ import E from "../../Certificates/ud.jpg";
 // import D from "../../Certificates/li";
 // import E from "../../Certificates/ud";
 import "react-slideshow-image/dist/styles.css";
+import { Col, Row } from "react-bootstrap";
 
 export default function Certificate() {
   return (
     <div id="Certificates">
+      <Row className="justify-content-center title" id="Myworks">Certificates</Row>
       <Slide easing="ease">
         <div className="each-slide">
           <div className="m-5">

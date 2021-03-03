@@ -21,26 +21,26 @@ export default function NavBar() {
           </Col>
           <Col lg={4} md={12} sm={12} className="social">
             <a href="https://www.google.com">
-              <i className="fab fa-telegram-plane "></i>
+              <i className="fab fa-telegram-plane fabb"></i>
             </a>
             <a href="https://www.google.com">
-              <i className="fab fa-instagram "></i>
+              <i className="fab fa-instagram fabb"></i>
             </a>
             <a href="https://www.google.com">
-              <i className="fab fa-facebook-square "></i>
+              <i className="fab fa-facebook-square fabb"></i>
             </a>
             <a href="https://www.google.com">
-              <i className="fab fa-linkedin "></i>
+              <i className="fab fa-linkedin fabb"></i>
             </a>
           </Col>
         </Row>
       </Container>
       <Row className="justify-content-center">
-        <Navbar expand="navbar navbar-expand-lg navbar-dark">
+        <Navbar  expand="navbar navbar-expand-lg navbar-dark">
           {/* <Navbar.Brand href="#home">Home</Navbar.Brand> */}
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
+            <Nav  className="mr-auto">
               <Nav.Link href="#link">Home</Nav.Link>
               <Nav.Link href="#Skills">Skills</Nav.Link>
               <Nav.Link href="#Myworks">My Works</Nav.Link>

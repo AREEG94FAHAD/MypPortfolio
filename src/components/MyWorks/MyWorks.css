@@ -6,11 +6,24 @@
 }
 
 .item {
+  width: 100%;
+  height: fit-content;
   background-color: azure;
   margin-top: 16px;
-  max-height: 300px;
-  height: 250px;
+  /* max-height: 300px; */
+  height: 300px;
   padding: 16px;
   text-align: center;
+  top: 50% !important;
   margin-bottom: 16px !important;
 }
+
+.icon {
+  font-size: x-large;
+  color: rgb(84, 115, 132);
+}
+
+.as{
+  position: relative;
+}
+

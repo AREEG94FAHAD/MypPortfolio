@@ -3,10 +3,15 @@
     padding: 26px;
     background-color:#c2dcdd;
     color: #547373;
-    font-size: x-large;
+    font-size: large;
     text-align: left;
     border-radius: 20px;
     
 }
 
 
+.card-up{
+    height: 200px;
+    background-color: #C2DCDD!important;;
+    margin-bottom: -150px;
+}

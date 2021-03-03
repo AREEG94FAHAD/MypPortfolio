@@ -32,9 +32,9 @@ export default function Experience() {
               </p>
 <hr></hr>
               <p>
-                <ul>2018 - AL-Nahrain University</ul>- Assistant Lecturer Teach
+                <ul>2018 - AL-Nahrain University</ul>Assistant Lecturer Teach
                 as a member of a teaching team within anestablished programme of
-                study - Develop own teaching materials, methods andapproaches
+                study Develop own teaching materials, methods andapproaches
                 taking into account established or agreed practices where
                 necessary.{" "}
               </p>

@@ -14,9 +14,9 @@ export default function Education() {
               <p>
                 {" "}
                 <ul>Al-Nahrain University</ul> 
-                <li>2016 - 2019 | MS in Network Engineering</li>
+                2016 - 2019 | MS in Network Engineering
               </p>
-              <p><ul>Al Iraqia University </ul><li>2012-2016 | BSc in Network Engineering</li></p>
+              <p><ul>Al Iraqia University </ul>2012-2016 | BSc in Network Engineering</p>
             </Col>
           </Row>
         </Col>
