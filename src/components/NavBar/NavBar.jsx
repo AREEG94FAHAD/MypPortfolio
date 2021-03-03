@@ -2,6 +2,7 @@ import React from "react";
 import { Row, Container, Col, Navbar, Nav } from "react-bootstrap";
 import "./NavBar.css";
 import Hi from "../../Images/1.png";
+import Email from "../Email/Email";
 export default function NavBar() {
   return (
     <div className="NabBarMain">
@@ -41,7 +42,7 @@ export default function NavBar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav  className="mr-auto">
-              <Nav.Link href="#link">Home</Nav.Link>
+              <Nav.Link href="#link"> Home</Nav.Link>
               <Nav.Link href="#Skills">Skills</Nav.Link>
               <Nav.Link href="#Myworks">My Works</Nav.Link>
               <Nav.Link href="#AbouteMe">Aboute Me</Nav.Link>
@@ -49,6 +50,7 @@ export default function NavBar() {
               <Nav.Link href="#Experienec">Experience</Nav.Link>
               <Nav.Link href="#Certificates">Certificates</Nav.Link>
               <Nav.Link href="#Contact">Contact</Nav.Link>
+              <Nav.Link href="#link"> <Email/> </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

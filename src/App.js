@@ -8,8 +8,11 @@ import MySkills from './components/MySkills/MySkills';
 import My2 from './components/MyWorks/My2';
 import MyWorks from './components/MyWorks/MyWorks';
 import NavBar from './components/NavBar/NavBar';
+import Email from './components/Email/Email'
 
 function App() {
+
+
   return (
     <div className="App">
      <NavBar/>
@@ -21,6 +24,7 @@ function App() {
     <Experience/>
     <Certificate/>
     <ContactInfo/>
+   
     </div>
   );
 }
