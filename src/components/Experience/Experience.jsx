@@ -5,7 +5,7 @@ import { Col, Row } from "react-bootstrap";
 export default function Experience() {
   return (
     <div>
-      <Row className="justify-content-center title" id="Experience">
+      <Row className="justify-content-center title" id="Experienec">
       <Col className="align-self-center" Col xl={4} lg={4} md={4} sm={12} xs={12}>
           <img
             src={Ex}

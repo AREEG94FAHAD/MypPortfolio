@@ -6,7 +6,7 @@ export default function AboutMe() {
   return (
     <div>
       <Row className="justify-content-center" id="AbouteMe">
-        <Col className="align-self-center" Col xl={4} lg={4} md={4} sm={12} xs={12} className="middle">
+        <Col className="align-self-center" Col xl={4} lg={4} md={4} sm={12} xs={12} >
           <img
             src={A1}
             width="280px"

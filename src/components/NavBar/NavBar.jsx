@@ -30,18 +30,19 @@ export default function NavBar() {
             <a href="https://www.google.com">
               <i className="fab fa-facebook-square fabb"></i>
             </a>
-            <a href="https://www.google.com">
+            <a href="https://www.linkedin.com/in/areeg-fahad/">
               <i className="fab fa-linkedin fabb"></i>
             </a>
           </Col>
         </Row>
       </Container>
       <Row className="justify-content-center">
-        <Navbar  expand="navbar navbar-expand-lg navbar-dark">
+        <Navbar   expand="navbar navbar-expand-lg navbar-dark">
           {/* <Navbar.Brand href="#home">Home</Navbar.Brand> */}
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav"><i class="fas fa-bars"></i></Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav  className="mr-auto">
+
+            <Nav  className="m-auto">
               <Nav.Link href="#link"> Home</Nav.Link>
               <Nav.Link href="#Skills">Skills</Nav.Link>
               <Nav.Link href="#Myworks">My Works</Nav.Link>

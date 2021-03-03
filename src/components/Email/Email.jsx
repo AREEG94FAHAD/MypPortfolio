@@ -1,4 +1,5 @@
-import React, { Component, useState } from "react";
+import React, {  useState } from "react";
+import './Email.css'
 
 import { Modal, Button } from "react-bootstrap";
 import Massege from "./Massage/Massege";
@@ -15,7 +16,7 @@ export default function Email() {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
+      <Button className="button" variant="outline-info" onClick={handleShow}>
         Leave a massage
       </Button>
 

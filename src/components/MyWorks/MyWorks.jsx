@@ -4,6 +4,8 @@ import P1 from "../../Images/p1.png";
 import P2 from "../../Images/p2.png";
 import { Col, Row } from "react-bootstrap";
 
+
+
 export default function MyWorks() {
   return (
     <div>
@@ -37,7 +39,7 @@ export default function MyWorks() {
               auction listings, place bids on listings, comment on those
               listings
             </p>
-            <i class="fab fa-github icon"></i>
+            <a href="https://github.com/AREEG94FAHAD/commerce"><i class="fab fa-github icon"></i></a> 
           </div>{" "}
         </Col>
         <Col xl={4} lg={4} md={6} sm={12} xs={12}>

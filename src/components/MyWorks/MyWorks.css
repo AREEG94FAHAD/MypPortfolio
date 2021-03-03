@@ -19,8 +19,12 @@
 }
 
 .icon {
-  font-size: x-large;
-  color: rgb(84, 115, 132);
+
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: xx-large;
+    color: #131212;
+    /* text-shadow: 1px  1px orange; */
 }
 
 .as{
