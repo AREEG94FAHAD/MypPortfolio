@@ -63,7 +63,7 @@ export default function Massege(props) {
 
         <Form.Group controlId="formBasicPassword">
           <Form.Label>Body</Form.Label>
-          <Form.Control as="textarea" value={massege} onChange={upDateMassege} placeholder="Your Massege" required />
+          <Form.Control as="textarea"  onChange={upDateMassege} placeholder="Your Massege" required />
         </Form.Group>
 
         <Button onClick={SubMitData} variant="primary" type="submit">
