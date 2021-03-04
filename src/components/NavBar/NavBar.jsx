@@ -51,7 +51,8 @@ export default function NavBar() {
               <Nav.Link href="#Experienec">Experience</Nav.Link>
               <Nav.Link href="#Certificates">Certificates</Nav.Link>
               <Nav.Link href="#Contact">Contact</Nav.Link>
-              <Nav.Link href="#link"> <Email/> </Nav.Link>
+              <Nav.Link href="#link"> </Nav.Link>
+              <Email/> 
             </Nav>
           </Navbar.Collapse>
         </Navbar>

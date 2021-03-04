@@ -2,6 +2,7 @@ import React, {  useState } from "react";
 import './Email.css'
 
 import { Modal, Button } from "react-bootstrap";
+import { FormGroup, ControlLabel,  FormControl } from 'react-bootstrap'
 import Massege from "./Massage/Massege";
 
 export default function Email() {
@@ -17,12 +18,13 @@ export default function Email() {
   return (
     <>
       <Button className="button" variant="outline-info" onClick={handleShow}>
-        Leave a massage
+        Leave a message 
       </Button>
 
       <Modal show={show} onHide={handleClose}>
+       
         <Modal.Header closeButton>
-          <Modal.Title>Leave a massege</Modal.Title>
+          <Modal.Title>Leave a message</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Massege changeShow={changeShow} />

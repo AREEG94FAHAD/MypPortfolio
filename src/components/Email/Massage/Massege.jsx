@@ -31,8 +31,8 @@ export default function Massege(props) {
               setName("");
               setEmail("");
               setMessage("");
-            //   clickMe();
             })
+            .then(props.changeShow)
              
         }
 
@@ -48,7 +48,7 @@ export default function Massege(props) {
     // }
   return (
     <div>
-      <Form>
+      <Form onSubmit={SubMitData}>
         <Form.Group controlId="formBasicEmail">
           <Form.Label>Name</Form.Label>
           <Form.Control type="Text" value={name} onChange={upDateName} placeholder="Your Name" required />
@@ -63,10 +63,10 @@ export default function Massege(props) {
 
         <Form.Group controlId="formBasicPassword">
           <Form.Label>Body</Form.Label>
-          <Form.Control as="textarea"  onChange={upDateMassege} placeholder="Your Massege" required />
+          <Form.Control as="textarea"  onChange={upDateMassege} placeholder="Your Message" required  />
         </Form.Group>
 
-        <Button onClick={SubMitData} variant="primary" type="submit">
+        <Button  variant="primary" type="submit">
           Submit
         </Button>
       </Form>

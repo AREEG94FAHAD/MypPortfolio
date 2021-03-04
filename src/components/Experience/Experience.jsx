@@ -20,6 +20,7 @@ export default function Experience() {
           <Row className="justify-content-start">
             <Col className="Education">
               <p>
+              
                 {" "}
                 <ul>2019 - FreeLancer</ul>
                 <li>
