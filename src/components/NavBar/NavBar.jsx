@@ -21,15 +21,7 @@ export default function NavBar() {
             Areeg Fahad
           </Col>
           <Col lg={4} md={12} sm={12} className="social">
-//             <a href="https://www.google.com">
-//               <i className="fab fa-telegram-plane fabb"></i>
-//             </a>
-//             <a href="https://www.google.com">
-//               <i className="fab fa-instagram fabb"></i>
-//             </a>
-//             <a href="https://www.google.com">
-//               <i className="fab fa-facebook-square fabb"></i>
-//             </a>
+
             <a href="https://www.linkedin.com/in/areeg-fahad/">
               <i className="fab fa-linkedin fabb"></i>
             </a>
