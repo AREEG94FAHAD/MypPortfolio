@@ -26,7 +26,8 @@ export default function ContactInfo() {
             <Row className="justify-content-start title">Contact Info</Row>
             <Row className="justify-content-start">
             <Col className="contact">
-                {items? items.map(e=><li>{e.name}: {"  "+e.value}</li>):""}
+              <li>Phone : 07714355819</li>
+        <li>Email: FAHEDAREEG@GMAIL.COM</li>
 
 
             </Col>
