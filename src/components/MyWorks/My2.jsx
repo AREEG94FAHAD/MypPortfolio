@@ -15,8 +15,8 @@ import { Col, Row } from "react-bootstrap";
 const github = [
   "https://github.com/ReCoded-Org/capstone-iraq-rct-paw-five",
   "https://github.com/AREEG94FAHAD/covide19",
+   "https://github.com/AREEG94FAHAD/fyyur_udacity/tree/master/starter_code",
   "https://github.com/AREEG94FAHAD/commerce",
-  "https://github.com/AREEG94FAHAD/fyyur_udacity/tree/master/starter_code",
   'https://github.com/AREEG94FAHAD/trivia__api/tree/master/backend',
   'https://github.com/AREEG94FAHAD/coffee_shop/tree/master/backend',
   'https://github.com/AREEG94FAHAD/trivia__api/tree/master/backend',
@@ -28,7 +28,7 @@ const github = [
 const image = [
   "https://user-images.githubusercontent.com/30151596/117556129-45456900-b06e-11eb-803b-67f91c308eed.PNG",
   "https://www.bayancenter.org/en/wp-content/uploads/2020/02/786567679.jpg",
-  "https://bloomidea.com/sites/default/files/styles/og_image/public/blog/Tipos%20de%20come%CC%81rcio%20electro%CC%81nico_0.png?itok=jC9MlQZq",
+  "https://www.japannakama.co.uk/wp-content/uploads/2020/10/My-Hero-Academia-Band-Performance-350x250.jpg",
   "https://blogmedia.evbstatic.com/wp-content/uploads/wpmulti/sites/3/2017/03/29090546/venue-artist-booking-3.jpg",
   'https://miro.medium.com/max/769/1*K0F2uy0j5kAdhO7pfgOWxQ.png',
   'https://travellerdaily.info/wp-content/uploads/2020/03/Iraqi_tea.jpg',
@@ -38,14 +38,15 @@ const image = [
   'https://cdn.dribbble.com/users/967046/screenshots/2289935/6_icons1.jpg',
   'https://cdn.dribbble.com/users/2738683/screenshots/5856576/hagman_icons_logo_preview.jpg?compress=1&resize=400x300'
 ];
-const title = ["Paw-Five", "commerce", "Musical venue and Artist booking",'Articles API','Coffee Shop','Trivia API','Make your cv','Tell me a joke','weather app','Hangman game'];
+const title = ["Paw-Five", "Covid19","Musical venue and artist booking site", "E-commerce",'Articles API','Coffee Shop','Trivia API','Make your cv','Tell me a joke','weather app','Hangman game'];
 const body = [
   'paw five is an online platform who works toward saving pets from All over iraq by providing a away in which people who want to adope pets can easily find a pet to adopt from all cities of iraq and kurdistan',
   'web app for monitoring status " corona virus " in Iraq',
+   "Fyyur is a musical venue and artist booking site that facilitates the discovery and bookings of shows between local performing artists and venues.",
   "eBay-like e-commerce auction site that will allow users to post auction listings, place bids on listings, comment on those listings",
-  "Fyyur is a musical venue and artist booking site that facilitates the discovery and bookings of shows between local performing artists and venues.",
   'RESTFUL API for Display, Delete, Add , and update articles',
-  ' cafe for students to order drinks',
+ 
+  'Cafe for students to order drinks',
   'RESTFUL API for Display questions, Delete questions, Add questions,Play the quiz game',
   'Make your CV easy peasy as lemon squ eezy it is a platform to make cv with less than one minute',
   'Use this bot to change your unhappiness by joke. this bot base on',
