@@ -34,7 +34,7 @@ const image = [
   'https://cdn.dribbble.com/users/967046/screenshots/2289935/6_icons1.jpg',
   'https://cdn.dribbble.com/users/2738683/screenshots/5856576/hagman_icons_logo_preview.jpg?compress=1&resize=400x300'
 ];
-const title = ["Covid19", "commerce", "Musical venue and Artist booking",'Articles API','Coffee Shop','Trivia API','weather app','Hangman game'];
+const title = ["Paw-Five", "commerce", "Musical venue and Artist booking",'Articles API','Coffee Shop','Trivia API','weather app','Hangman game'];
 const body = [
   'paw five is an online platform who works toward saving pets from All over iraq by providing a away in which people who want to adope pets can easily find a pet to adopt from all cities of iraq and kurdistan',
   'web app for monitoring status " corona virus " in Iraq',
