@@ -27,6 +27,7 @@ export default function ContactInfo() {
             <Row className="justify-content-start">
             <Col className="contact">
               <li>Phone : 07714355819</li>
+        <li>Linkedin: <a href="https://www.linkedin.com/in/areeg-fahad/">Areeg Fahad</a></li>
         <li>Email: FAHEDAREEG@GMAIL.COM</li>
 
 
