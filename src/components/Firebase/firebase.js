@@ -1,7 +1,7 @@
 // import firebase from "firebase";
 import firebase from "firebase/app";
 import "firebase/firestore";
-  var firebaseConfig = {
+var firebaseConfig = {
     apiKey: "AIzaSyDMOsE3kQAuG0F5zuoovFOZAQmRONqggYQ",
     authDomain: "adfghjk-7dc0e.firebaseapp.com",
     databaseURL: "https://adfghjk-7dc0e-default-rtdb.firebaseio.com",
