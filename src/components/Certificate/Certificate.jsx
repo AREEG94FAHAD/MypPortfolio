@@ -7,6 +7,9 @@ import C from "../../Certificates/le.jpg";
 import D from "../../Certificates/li.PNG";
 import E from "../../Certificates/ud.jpg";
 import F from "../../Certificates/hu.PNG";
+import G from "../../Certificates/1.PNG";
+import H from "../../Certificates/2.PNG";
+import I from "../../Certificates/3.PNG";
 // import B from "../../Certificates/dj";
 // import C from "../../Certificates/le";
 // import D from "../../Certificates/li";
@@ -14,7 +17,7 @@ import F from "../../Certificates/hu.PNG";
 import "react-slideshow-image/dist/styles.css";
 import { Row } from "react-bootstrap";
 
-const images = [A, B, C, D, E, F];
+const images = [A, B, C, D, E, F,G,H,I];
 
 export default function Certificate() {
   return (
