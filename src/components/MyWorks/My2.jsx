@@ -20,6 +20,8 @@ const github = [
   'https://github.com/AREEG94FAHAD/trivia__api/tree/master/backend',
   'https://github.com/AREEG94FAHAD/coffee_shop/tree/master/backend',
   'https://github.com/AREEG94FAHAD/trivia__api/tree/master/backend',
+  'https://github.com/AREEG94FAHAD/make_your_cv',
+  'https://github.com/AREEG94FAHAD/tell_me_a_joke',
   'https://github.com/AREEG94FAHAD/weather_app_js/tree/master/weather-app',
   'https://github.com/haval95/hangman_react_js'
 ];
@@ -31,10 +33,12 @@ const image = [
   'https://miro.medium.com/max/769/1*K0F2uy0j5kAdhO7pfgOWxQ.png',
   'https://travellerdaily.info/wp-content/uploads/2020/03/Iraqi_tea.jpg',
   'https://www.psd.gov.sg/images/default-source/challenge-library/lifestyle/trivia-quiz/quiz-trivia-edm/trivia-quiz-yellow-main-720x400.jpg',
+  'https://user-images.githubusercontent.com/30151596/117553100-25a34600-b058-11eb-8670-d653d7b71105.PNG',
+  'https://user-images.githubusercontent.com/30151596/117568677-591eb880-b0ca-11eb-8a3d-1072ea5e01ce.jpg',
   'https://cdn.dribbble.com/users/967046/screenshots/2289935/6_icons1.jpg',
   'https://cdn.dribbble.com/users/2738683/screenshots/5856576/hagman_icons_logo_preview.jpg?compress=1&resize=400x300'
 ];
-const title = ["Paw-Five", "commerce", "Musical venue and Artist booking",'Articles API','Coffee Shop','Trivia API','weather app','Hangman game'];
+const title = ["Paw-Five", "commerce", "Musical venue and Artist booking",'Articles API','Coffee Shop','Trivia API','Make your cv','Tell me a joke','weather app','Hangman game'];
 const body = [
   'paw five is an online platform who works toward saving pets from All over iraq by providing a away in which people who want to adope pets can easily find a pet to adopt from all cities of iraq and kurdistan',
   'web app for monitoring status " corona virus " in Iraq',
@@ -43,6 +47,8 @@ const body = [
   'RESTFUL API for Display, Delete, Add , and update articles',
   ' cafe for students to order drinks',
   'RESTFUL API for Display questions, Delete questions, Add questions,Play the quiz game',
+  'Make your CV easy peasy as lemon squ eezy it is a platform to make cv with less than one minute',
+  'Use this bot to change your unhappiness by joke. this bot base on',
   'A weather web application using React',
   ' The most Dangerous game you will ever play! if you don\'t win aperson will be hanged 👨‍🦱🔪 !!'
 ];
